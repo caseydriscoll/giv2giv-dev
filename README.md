@@ -26,7 +26,7 @@ cd giv2giv-dev
 
 ```
 git clone https://github.com/giv2giv/giv2giv-rails.git
-get clone https://github.com/giv2giv/giv2giv-jquery.git
+git clone https://github.com/giv2giv/giv2giv-jquery.git
 ```
 
 ### Edit appropriate files
@@ -34,6 +34,7 @@ get clone https://github.com/giv2giv/giv2giv-jquery.git
 In file giv2giv-jquery/js/app.js change line 4
 
 ```
+vim giv2giv-jquery/js/app.js
 var server_url = "https://apitest.giv2giv.org"
 ```
 
@@ -46,6 +47,7 @@ var server_url = "http://localhost:3000"
 In file giv2giv-rails/config/database.yml change all users and password to 'root'
 
 ```
+vim giv2giv-rails/config/database.yml
 username: root
 password: root
 ```
