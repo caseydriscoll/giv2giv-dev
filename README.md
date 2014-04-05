@@ -35,7 +35,6 @@ In file giv2giv-jquery/js/app.js change line 4
 
 ```
 var server_url = "https://apitest.giv2giv.org"
-
 ```
 
 to 
