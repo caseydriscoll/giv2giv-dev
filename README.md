@@ -55,6 +55,7 @@ vagrant up
 ```
 vagrant ssh
 scripts/install-rails.sh
+source ~/.bash_profile
 ```
 
 5. Wait for installation (will take some time depending on connection speed and CPU)
