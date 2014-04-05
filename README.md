@@ -6,7 +6,7 @@ This VagrantFile is the fastest way to get giv2giv up and running on your local 
 
 It assumes working knowledge of Linux command line, git and vagrant.
 
-= Edit system file =
+### Edit system file
 Add this line to your hosts file
  - On Mac and *nix systems, the hosts file is at /etc/hosts
 
@@ -14,7 +14,7 @@ Add this line to your hosts file
 192.168.33.200 giv2giv.dev
 ```
 
-# Download this repository into an appropriate location
+### Download this repository into an appropriate location
 
 ```
 cd ~
@@ -22,14 +22,14 @@ git clone https://github.com/caseypatrickdriscoll/giv2giv-dev.git
 cd giv2giv-dev
 ```
 
-# Install giv2giv codebase
+### Install giv2giv codebase
 
 ```
 git clone https://github.com/giv2giv/giv2giv-rails.git
 get clone https://github.com/giv2giv/giv2giv-jquery.git
 ```
 
-# Edit appropriate files
+### Edit appropriate files
 
 In file giv2giv-jquery/js/app.js change line 4
 
@@ -44,7 +44,7 @@ to
 var server_url = "http://localhost:3000"
 ```
 
-# Start the server
+### Start the server
 
 ```
 vagrant up
