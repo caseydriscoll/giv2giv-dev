@@ -3,7 +3,7 @@ apt-get clean
 apt-get update
 echo 'mysql-server-5.5 mysql-server/root_password password root' | sudo debconf-set-selections
 echo 'mysql-server-5.5 mysql-server/root_password_again password root' | sudo debconf-set-selections
-apt-get install -y git htop tree tmux zip unzip nginx mysql-client mysql-server-5.5 nodejs
+apt-get install -y git htop tree tmux zip unzip nginx mysql-client mysql-server-5.5 libmysqlclient-dev nodejs
 
 # Copy install scripts
 cp -R /vagrant/scripts/ /home/vagrant/
